@@ -49,7 +49,7 @@ for i in range(0,len(dict)-word_length+1,word_length):
     lex.append(words)
  
 
-print ("Some random funny sounding words are as follows: ", end='')
+print ("\nSome random funny sounding words are as follows: \n ------------------------------------------------\n", end='')
 for i in range(len(lex)):
     print (lex[i], end=' ')
 #print len(dict)
